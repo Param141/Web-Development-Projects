@@ -1,0 +1,39 @@
+#clockContainer{  
+    position: relative; /*so that hours,minute,sec gets adjusted relative to this container when changing screen size*/
+    margin: auto;  /*to bring the clock div at center of the webpage*/
+    height: 40vw;  /*need to give height and width to container first if want to see background color given to it*/
+    width: 40vw;  /*instead of px we use vw,vh so that website becomes responsive (takes 40% width and height of whatever screen size is there*/
+    background: url(clock.png) no-repeat; /*want one clock only at a time and no repeat*/
+    background-size: 100%; /*image would be overflowing initially to fit it properly in the div  give bg-size:100% */
+}
+
+#hour, #minute, #second{
+    position: absolute;   /*to set properties wrt corner of main clockContainer parent box*/
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;  /*so that the needles rotates from there bottom and not their middle point */
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;  /*top se increase kiya to hour hand will shift downwards*/
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;  /*do  changes in the style section of element and then paste here*/ 
+    top: 19%;  /*by decreasing height it gets changed from the top */
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;  /*give display = none to other two hands while setting properties for one hand*/
+    top: 9%;
+    left: 49.25%;  
+    opacity: 0.8; 
+    
+}
+
+/*if nwe set width and height in vw,vh then won't be able to zoom in the  clock for doing so set height and width to px for analyzing*/

@@ -1,0 +1,285 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0; /*to remove all the extra spaces and the content gets pasted in one corner*/
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;/*initially made overflow hidden for whole website later on will add only for main part as we don't require 
+                     scroll bar in nav bar and lower music bar by overflow hidden all the extra text overflowing the div gets 
+                     hidden and we can't scroll it*/
+}
+
+.main{
+    display: flex; 
+    height: 100vh; /*given the parent 100% height of screen*/
+    padding: 0.5rem;
+}
+/*parent given display flex so all three children div will also gonna come in same line*/
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem; /*1 rem =16px and to makee sidebar edges little curved one*/
+    margin-right: 0.5rem;
+}
+
+.main-content{
+   background-color:#121212;
+   flex: 1; /*this property means give all the left space on screen to this box after the rest two box had taken there space*/
+   border-radius: 1rem;
+   overflow: auto; /*overflow auto means scrollbar will be visible only when required and not always*/
+   padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0; /*present at 0px from the bottom and made its position fixed with width=100% of screen*/ 
+    width: 100%;
+    height: 72px;
+}
+
+a{
+    text-decoration: none; /*to remove underline from home and search*/
+    color: #fff;
+}
+
+.nav{
+    background-color: #121212;  /*giving prperties to first box of nav bar*/
+    border-radius: 1rem;
+    display: flex; /*both home and search divs will come in same line horizontally*/
+    flex-direction: column;/*to bring both home and search divs in same line vertically*/
+    justify-content: center;/*to bring all content in center vertically since flex main axis is vertical otherwise it aligns content horizontally centre*/
+    height: 100px;
+    padding: 0.5rem 0.75rem; /* 0.5 rem =8px , 0.75rem=12px gave this in rems to make wesite more responsive*/
+}
+
+.nav-option{
+    line-height: 2.5rem; /*to give 40px gap or height to both individual divs of home and search*/
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+
+}
+
+
+.nav-option:hover{
+
+    opacity: 1; /*initally gave opacity 0.7 and as we hover the text opacity becomes 1 and they would start glowing but only changing of search and not homme therefore by inline styling only gave home opacity 1 initially*/
+
+}
+.nav-option i{  /*giving home and search icon (magnifying glass) the size*/
+    font-size: 1.25rem;
+}
+
+.nav-option a{  /*giving text of home and search the size*/
+
+    font-size: 1rem;
+    margin-left: 1rem /* to give a little space between icon and text*/
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+
+.options {
+    display: flex; /*to bring all the elements in same horizontal line*/
+    justify-content: space-between; /*to send libary icon,text and rest of icon of right arrow on tow opposite ends*/
+    align-items: center;/*align items vertically at the center*/
+}
+
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;  /*giving sizing to icons +,-> */
+        display: flex;  /*to bring both icons in same line*/
+}
+
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;  /*to give a little space from the right and make them shift to the left*/
+}
+
+.icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    height: 8rem; /*around 140px was box height*/
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge{
+    background-color: #fff;
+    border: none;/*by default buttons have some border so removed it*/
+    border-radius: 100px;
+    padding: 0.25rem 1 rem;
+    margin-top: 0.5rem; /*to give little spacing from top*/
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content; /*content will get fit inside the width*/
+}
+
+.sticky-nav{
+    position: sticky; /*will get fixed only when we scroll otherwise not*/
+    top: 0;
+    background-color: #121212;
+    display: flex;/*to bring all horizontally in same line*/
+    justify-content: space-between; /*space divided between items*/
+    align-items: center;/*to align all items in the center*/
+    padding: 1rem 0 1rem 0;
+    z-index: 10; /*so that when we scro;; then the text don't overlaps with sticky nav bar and it must get the highest priority*/
+}
+
+.sticky-nav-icons img{
+   margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+
+@media(max-width:1000px){
+    .hide{
+        display: none;  /*to whichever icon we had give hide class it would disappear at lenght below 1000px*/
+    }
+}
+
+.card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;/*so that if more cards come in an line and they start sqeeuizing their size then they wrap around to next line to maintain their original size*/
+}
+
+.card-img{
+    width: 100%; /*image of card will gets shrinked an =d fixed inside of card width*/
+    border-radius: 1rem; /*image is overlapping with card so gave it also border radius to make curve edges*/
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer{
+    height: 300px; /*to make space below the cards for proper scrolling*/
+    display: flex;
+    align-items: center;
+    justify-content: center;  /*all these three to bring line at the center of this div*/
+}
+
+.line{
+    height: 40%;  /*if wanna place line more up then increase the height of this div*/
+    width: 90%;  /*parent wrt them is div with footer class*/
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+}
+
+
+.player{
+    width: 50%;
+}
+
+.controls{
+    width: 25%;
+}
+
+.player-control-icon{
+    height: 1rem;/*giving each icon height of 1rem*/
+    margin-right: 1.7rem;
+    opacity: 0.7;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center; /*all icons grouped at the center*/
+    align-items: center;
+    
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none; /*to remove all the pre styling present in the bar*/
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;/*to shift the thumb little up*/
+}

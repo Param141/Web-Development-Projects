@@ -12,60 +12,33 @@ Instead of scattering projects across multiple repositories, I've brought them t
 
 ## 📁 Projects Included
 
-### 🕰️ Analog Clock
-- **Tech Stack**: HTML, CSS, JavaScript
-- **Description**: A functional analog clock styled with CSS and animated using JS.
-- **Status**: ✅ Completed
-  
- 
-### 📝 Quote Generator
-A simple yet elegant web app that displays random motivational quotes each time the user clicks a button. Built to practice DOM manipulation, event handling, and clean UI design.
+🕰️ Analog Clock
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A functional analog clock styled with CSS and animated using JS.
+- Features: Real-time rotation of hour, minute, and second hands
+- Learned: CSS transforms, JS intervals, DOM targeting
+- Live Demo: (Add link if hosted)
 
-## 🔧 Tech Stack
-- HTML
-- CSS
-- JavaScript
+📝 Quote Generator
+- Tech Stack: HTML, CSS, JavaScript
+- Description: Displays random motivational quotes on button click.
+- Features: Predefined quote list, responsive layout
+- Learned: DOM manipulation, event handling, clean UI structuring
+- Live Demo: (Add link if hosted)
 
-## ✨ Features
-- Random quote display from a predefined list
-- Clean and responsive design
-- Button-triggered quote refresh
+❌⭕ Tic Tac Toe
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A two-player game with win/draw detection and reset.
+- Features: Turn-based logic, result alerts, replay option
+- Learned: Game state management, conditionals, interactive UI
+- Live Demo: Click here to play
 
-## 📚 What I Learned
-- How to manipulate the DOM dynamically
-- Event listeners and basic JS logic
-- Structuring a minimal UI for clarity
-
-### 🎮 Tic Tac Toe
-
-A classic two-player Tic Tac Toe game built using HTML, CSS, and JavaScript. Designed to reinforce logic building, condition checking, and interactive UI development.
-
-## 🔧 Tech Stack
-- HTML
-- CSS
-- JavaScript
-
-## ✨ Features
-- Two-player turn-based gameplay
-- Win/draw detection logic
-- Reset button to restart the game
-- Simple and intuitive interface
-
-## 🚀 Live Demo
-[Click here to play](https://parami141.github.io/Web-Development-Projects/tic_tac_toe/) *(if hosted)*
-
-## 📚 What I Learned
-- Implementing game logic with conditionals
-- Managing game state and user turns
-- Creating interactive elements with JS
-
-## 🧰 Tools & Workflow
-
-- GitHub Desktop for version control and daily commits
-- Visual Studio Code for editing and debugging
-- Manual folder organization for clarity and recruiter-friendly structure
-
-
+🎧 Spotify Clone
+- Tech Stack: HTML, CSS
+- Description: A static replica of Spotify’s homepage and player UI.
+- Features: Sidebar navigation, album grid, play bar mockup
+- Learned: Flexbox, responsive layout, UI mimicry
+- Live Demo: (Add link if hosted)
 
 
 

@@ -40,6 +40,12 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Learned: Flexbox, responsive layout, UI mimicry
 - Live Demo: (Add link if hosted)
 
+🐉 Dinosaur Dodge Game
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A side-scrolling survival game where a dinosaur dodges incoming monsters by jumping at the right time.
+- Features: Arrow key movement, jump mechanics, score tracking, game-over screen
+- Learned: Collision detection, keyboard event handling, dynamic score updates
+- Live Demo: (Add link if hosted)
 
 
 ## 📅 Contribution Strategy

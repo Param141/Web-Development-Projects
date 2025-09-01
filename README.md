@@ -17,42 +17,42 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Description: A functional analog clock styled with CSS and animated using JS.
 - Features: Real-time rotation of hour, minute, and second hands
 - Learned: CSS transforms, JS intervals, DOM targeting
-- Live Demo: (Add link if hosted)
+- Live Demo: ([Click here to visit](https://param141.github.io/Web_Development_Projects/analog_clock/))
 
 📝 Quote Generator
 - Tech Stack: HTML, CSS, JavaScript
 - Description: Displays random motivational quotes on button click.
 - Features: Predefined quote list, responsive layout
 - Learned: DOM manipulation, event handling, clean UI structuring
-- Live Demo: (Add link if hosted)
+- Live Demo: ([Click here to play](https://param141.github.io/Web_Development_Projects/Qoute_Generator))
 
 ❌⭕ Tic Tac Toe
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A two-player game with win/draw detection and reset.
 - Features: Turn-based logic, result alerts, replay option
 - Learned: Game state management, conditionals, interactive UI
-- Live Demo: Click here to play
+- Live Demo: [Click here to play](https://param141.github.io/Web_Development_Projects/tic_tac_toe/)
 
 🎧 Spotify Clone
 - Tech Stack: HTML, CSS
 - Description: A static replica of Spotify’s homepage and player UI.
 - Features: Sidebar navigation, album grid, play bar mockup
 - Learned: Flexbox, responsive layout, UI mimicry
-- Live Demo: (Add link if hosted)
+- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/spotify_clone/))
 
 🐉 Dinosaur Dodge Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A side-scrolling survival game where a dinosaur dodges incoming monsters by jumping at the right time.
 - Features: Arrow key movement, jump mechanics, score tracking, game-over screen
 - Learned: Collision detection, keyboard event handling, dynamic score updates
-- Live Demo: (Add link if hosted)
+- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/dragon_game/))
 
 🧠 Simon Says Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A memory-based color sequence game where players repeat increasingly complex patterns.
 - Features: Randomized color sequences, level progression, sound effects, game-over reset
 - Learned: Event sequencing, time delays, user input validation, dynamic UI updates
-- Live Demo: (Add link if hosted)
+- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/simon_say/))
 
 
 ## 📅 Contribution Strategy

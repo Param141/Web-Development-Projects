@@ -47,6 +47,13 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Learned: Collision detection, keyboard event handling, dynamic score updates
 - Live Demo: (Add link if hosted)
 
+🧠 Simon Says Game
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A memory-based color sequence game where players repeat increasingly complex patterns.
+- Features: Randomized color sequences, level progression, sound effects, game-over reset
+- Learned: Event sequencing, time delays, user input validation, dynamic UI updates
+- Live Demo: (Add link if hosted)
+
 
 ## 📅 Contribution Strategy
 

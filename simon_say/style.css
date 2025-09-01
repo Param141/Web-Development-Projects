@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem; /*to give spacing between boxes*/
+}
+
+.btn-container{
+    display: flex; /*to bring all div on same line*/
+    justify-content: center;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+
+    background-color: red;
+}
+.flash{
+    background-color: white;
+}
+/*which ever button is flashing its background color gets momentarily change*/
+.purple{
+    background-color: purple;
+}
+
+.green{
+
+    background-color: green;
+}
+.userflash{
+    background-color: green;
+}

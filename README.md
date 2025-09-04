@@ -54,6 +54,22 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Learned: Event sequencing, time delays, user input validation, dynamic UI updates
 - Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/simon_say/))
 
+🎨 Random Color Generator
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A dynamic color box that changes to a random RGB value on button click, with the color code displayed outside the box.
+- Features: Random RGB generation, live color preview, responsive layout
+- Learned: Math.random usage, DOM updates, inline styling with JS
+- Live Demo: ([Click Here to visit](https://param141.github.io/Web_Development_Projects/random_color_generator)
+
+🚗 Animated Car Project
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A looping animation of a luxury sports car driving endlessly on a road, complete with sound effects for realism.
+- Features: Smooth car motion, layered road animation, audio integration
+- Learned: CSS keyframes, JS audio control, visual storytelling through animation
+- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/Animated_car))
+
+
+
 
 ## 📅 Contribution Strategy
 

@@ -38,21 +38,21 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Description: A static replica of Spotify’s homepage and player UI.
 - Features: Sidebar navigation, album grid, play bar mockup
 - Learned: Flexbox, responsive layout, UI mimicry
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/spotify_clone/))
+- Live Demo: ([Click Here to Visit](https://param141.github.io/Web_Development_Projects/spotify_clone/))
 
 🐉 Dinosaur Dodge Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A side-scrolling survival game where a dinosaur dodges incoming monsters by jumping at the right time.
 - Features: Arrow key movement, jump mechanics, score tracking, game-over screen
 - Learned: Collision detection, keyboard event handling, dynamic score updates
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/dragon_game/))
+- Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/dragon_game/))
 
 🧠 Simon Says Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A memory-based color sequence game where players repeat increasingly complex patterns.
 - Features: Randomized color sequences, level progression, sound effects, game-over reset
 - Learned: Event sequencing, time delays, user input validation, dynamic UI updates
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/simon_say/))
+- Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/simon_say/))
 
 
 ## 📅 Contribution Strategy

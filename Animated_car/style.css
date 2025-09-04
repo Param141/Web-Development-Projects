@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;  /*so that scrollbar doesn't move backwards*/
+    animation: shakebody linear 6s infinite;
+}
+.sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;  /*so that even on zooming out the background image  don't repeats*/
+    position: absolute;
+}
+
+.trees{
+    height: 100vh;
+    width: 100%;
+    background-image: url(trees.png);
+    background-size: cover; 
+    position: absolute;  /*wrt their parent element sky*/
+    top: -144px; /*to bring trees image at front*/
+}
+.track{
+    height: 60vh;  /*increased width to 800vw so that the track never goes out of the frame*/
+    width: 800vw;
+    background-image: url(track.png);
+    background-repeat: repeat-x; 
+    position: absolute;
+    top: 70vh;
+    animation: carMove linear 13s infinite;  /*will move track backwards to give an illusion that car is moving forward*/
+}
+
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(car_body.png);
+    background-size: cover;  /*cover whatsoever size is given to you*/
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 444px;
+    bottom:30vh;
+    animation: shake linear .3s infinite;  /*change time of animation to control the speed at which the tyre rotates*/
+
+}
+
+
+.wheel1 img{
+    width: 77px;
+    position: relative; /*need to shift wheel relative to car position*/
+    top:42px;
+    left:42px;
+    animation: wheelRotation linear .16s infinite; /*to make the wheel rotate infinately*/
+
+}
+
+
+.wheel2 img{
+    width: 77px;
+    position: relative;
+    top: -39px;
+    left: 235px;
+    animation: wheelRotation linear .16s infinite;
+
+}
+
+@keyframes wheelRotation   /*wheelRotation is animation name*/
+{
+    100%{
+        transform: rotate(360deg);   /*when animation reaches to 100% rotate by 360deg*/
+    }
+}
+
+@keyframes carMove
+{
+    100%{
+        transform: translateX(-500vw);
+    }
+}
+
+@keyframes shake
+{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(5px);  /*to move the car up and down*/
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+@keyframes shakebody
+{
+    0%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(50px);  /*to shake the body up and down*/
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+
+
+#playButton {
+    display: inline-block; /* Make sure it is displayed as a block/inline element */
+    padding: 10px 20px; /* Add some space inside the button */
+    font-size: 16px; /* Make the text larger */
+    color: white; /* Set the text color */
+    background-color: blue; /* Set the button's background color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Make the corners rounded */
+    cursor: pointer; /* Change the cursor to a pointer when hovered */
+    position: relative; /* Ensure it is positioned */
+  z-index: 10; /* Set a higher z-index to bring it forward */
+  }

@@ -79,4 +79,4 @@ I commit one project per day to maintain a visible streak and reflect consistent
 
 Feel free to connect or reach out:
 - GitHub: [Param141](https://github.com/Param141)
-- LinkedIn: (https://www.linkedin.com/in/param-sharma-26949a2a3/)
+- LinkedIn: [Param Sharma](https://www.linkedin.com/in/param-sharma-26949a2a3/)

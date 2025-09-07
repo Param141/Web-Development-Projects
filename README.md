@@ -43,7 +43,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🐉 Dinosaur Dodge Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A side-scrolling survival game where a dinosaur dodges incoming monsters by jumping at the right time.
-- Features: Arrow key movement, jump mechanics, score tracking, game-over screen
+- Features: Arrow key movement, jump mechanics, score tracking, game-over screen.
 - Learned: Collision detection, keyboard event handling, dynamic score updates
 - Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/dragon_game/))
 

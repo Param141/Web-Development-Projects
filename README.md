@@ -38,21 +38,37 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Description: A static replica of Spotify’s homepage and player UI.
 - Features: Sidebar navigation, album grid, play bar mockup
 - Learned: Flexbox, responsive layout, UI mimicry
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/spotify_clone/))
+- Live Demo: ([Click Here to Visit](https://param141.github.io/Web_Development_Projects/spotify_clone/))
 
 🐉 Dinosaur Dodge Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A side-scrolling survival game where a dinosaur dodges incoming monsters by jumping at the right time.
-- Features: Arrow key movement, jump mechanics, score tracking, game-over screen
+- Features: Arrow key movement, jump mechanics, score tracking, game-over screen.
 - Learned: Collision detection, keyboard event handling, dynamic score updates
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/dragon_game/))
+- Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/dragon_game/))
 
 🧠 Simon Says Game
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A memory-based color sequence game where players repeat increasingly complex patterns.
 - Features: Randomized color sequences, level progression, sound effects, game-over reset
 - Learned: Event sequencing, time delays, user input validation, dynamic UI updates
-- Live Demo: ([Add link if hosted](https://param141.github.io/Web_Development_Projects/simon_say/))
+- Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/simon_say/))
+
+🎨 Random Color Generator
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A dynamic color box that changes to a random RGB value on button click, with the color code displayed outside the box.
+- Features: Random RGB generation, live color preview, responsive layout
+- Learned: Math.random usage, DOM updates, inline styling with JS
+- Live Demo: ([Click Here to visit](https://param141.github.io/Web_Development_Projects/random_color_generator))
+
+🚗 Animated Car Project
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A looping animation of a luxury sports car driving endlessly on a road, complete with sound effects for realism.
+- Features: Smooth car motion, layered road animation, audio integration
+- Learned: CSS keyframes, JS audio control, visual storytelling through animation
+- Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/Animated_car))
+
+
 
 
 ## 📅 Contribution Strategy
@@ -63,4 +79,4 @@ I commit one project per day to maintain a visible streak and reflect consistent
 
 Feel free to connect or reach out:
 - GitHub: [Param141](https://github.com/Param141)
-- LinkedIn: (https://www.linkedin.com/in/param-sharma-26949a2a3/)
+- LinkedIn: [Param Sharma](https://www.linkedin.com/in/param-sharma-26949a2a3/)

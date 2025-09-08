@@ -68,6 +68,14 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Learned: CSS keyframes, JS audio control, visual storytelling through animation
 - Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/Animated_car))
 
+🔢 Number Guessing Game
+- Tech Stack: HTML, JavaScript
+- Description: A pop-up based guessing game where users select a max number, then try to guess the randomly generated value.
+- Features: Custom range input, real-time feedback (“Too high” / “Too low”), final score reveal on correct guess
+- Learned: Math.random logic, prompt handling, conditional feedback loops
+- Live Demo: ([Click here to play](https://param141.github.io/Web_Development_Projects/Animated_car))
+
+
 
 
 

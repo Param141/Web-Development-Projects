@@ -78,7 +78,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 ✅ To-Do App
 - Tech Stack: HTML, JavaScript
 - Description: A command-based to-do list app where users can add, view, delete tasks, or quit the session via prompt inputs.
-- Features: Task listing, dynamic addition/removal, quit command to exit interaction
+- Features: Task listing, dynamic addition/removal, quit command to exit interaction.
 - Learned: Array manipulation, prompt handling, conditional logic for user commands.
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/todo_app)
 

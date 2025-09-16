@@ -89,6 +89,13 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Learned: Semantic HTML structuring, content organization, visual hierarchy, basic interactivity
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/spider_man)
 
+🗂️ DOM-Based To-Do App
+- Tech Stack: HTML, JavaScript
+- Description: A dynamic to-do list app where users can add, delete, and mark tasks directly on the webpage using DOM manipulation.
+- Features: Real-time task rendering, delete buttons, input validation, responsive interaction
+- Learned: DOM traversal, element creation/removal, event-driven updates
+- Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/todo_dom)
+
 
 
 

@@ -7,7 +7,7 @@ Welcome to my curated collection of web development projects — built from scra
 
 Instead of scattering projects across multiple repositories, I've brought them together here to:
 - Maintain a consistent GitHub contribution streak 📈
-- Showcase my evolving skillset in one place
+- Showcase my evolving skillset in one place.
 - Make it easier for recruiters and collaborators to explore my work
 
 ## 📁 Projects Included
@@ -88,6 +88,13 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Features: Hero image, “About” and “Creation & Development” sections, clickable publication info links, responsive layout
 - Learned: Semantic HTML structuring, content organization, visual hierarchy, basic interactivity
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/spider_man)
+
+🗂️ DOM-Based To-Do App
+- Tech Stack: HTML, JavaScript
+- Description: A dynamic to-do list app where users can add, delete, and mark tasks directly on the webpage using DOM manipulation.
+- Features: Real-time task rendering, delete buttons, input validation, responsive interaction
+- Learned: DOM traversal, element creation/removal, event-driven updates
+- Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/todo_dom)
 
 
 

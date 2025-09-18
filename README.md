@@ -97,6 +97,12 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/todo_dom)
 
 
+🧮 Calculator App
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A responsive calculator that performs basic arithmetic operations including addition, subtraction, multiplication, and division.
+- Features: Button-based input, real-time display updates, clear/reset functionality, keyboard support (optional)
+- Learned: DOM manipulation, event handling, expression parsing, UI layout with CSS grid/flex
+- Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/calculator2)
 
 
 

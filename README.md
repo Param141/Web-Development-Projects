@@ -8,7 +8,7 @@ Welcome to my curated collection of web development projects — built from scra
 Instead of scattering projects across multiple repositories, I've brought them together here to:
 - Maintain a consistent GitHub contribution streak 📈
 - Showcase my evolving skillset in one place.
-- Make it easier for recruiters and collaborators to explore my work
+- Make it easier for recruiters and collaborators to explore my work.
 
 ## 📁 Projects Included
 

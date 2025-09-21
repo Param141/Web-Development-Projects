@@ -22,7 +22,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 📝 Quote Generator
 - Tech Stack: HTML, CSS, JavaScript
 - Description: Displays random motivational quotes on button click.
-- Features: Predefined quote list, responsive layout
+- Features: Predefined quote list, responsive layout.
 - Learned: DOM manipulation, event handling, clean UI structuring
 - Live Demo: ([Click here to play](https://param141.github.io/Web_Development_Projects/Qoute_generator))
 

@@ -57,7 +57,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🎨 Random Color Generator
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A dynamic color box that changes to a random RGB value on button click, with the color code displayed outside the box.
-- Features: Random RGB generation, live color preview, responsive layout
+- Features: Random RGB generation, live color preview, responsive layout.
 - Learned: Math.random usage, DOM updates, inline styling with JS
 - Live Demo: ([Click Here to visit](https://param141.github.io/Web_Development_Projects/random_color_generator))
 

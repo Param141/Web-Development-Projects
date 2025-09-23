@@ -105,6 +105,17 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/calculator2)
 
 
+📸 DSLR Sidebar Navigation Page
+- Tech Stack: HTML, CSS
+- Description: A visually rich webpage featuring a dark-themed DSLR camera background with a collapsible sidebar menu styled for a photography or media-focused site.
+- Features:
+- Sidebar with navigation links (Gallery, Exhibits, Events, Store, Contact, Feedback)
+- Social media icons for Twitter, Facebook, Instagram
+- Hamburger menu toggle for responsive sidebar visibility
+- Clean layout with strong visual hierarchy and contrast
+- Learned: CSS positioning, transitions, responsive design, icon integration
+- Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/project1)
+
 
 ## 📅 Contribution Strategy
 

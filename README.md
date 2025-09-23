@@ -8,7 +8,7 @@ Welcome to my curated collection of web development projects — built from scra
 Instead of scattering projects across multiple repositories, I've brought them together here to:
 - Maintain a consistent GitHub contribution streak 📈
 - Showcase my evolving skillset in one place.
-- Make it easier for recruiters and collaborators to explore my work
+- Make it easier for recruiters and collaborators to explore my work.
 
 ## 📁 Projects Included
 
@@ -22,7 +22,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 📝 Quote Generator
 - Tech Stack: HTML, CSS, JavaScript
 - Description: Displays random motivational quotes on button click.
-- Features: Predefined quote list, responsive layout
+- Features: Predefined quote list, responsive layout.
 - Learned: DOM manipulation, event handling, clean UI structuring
 - Live Demo: ([Click here to play](https://param141.github.io/Web_Development_Projects/Qoute_generator))
 
@@ -57,7 +57,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🎨 Random Color Generator
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A dynamic color box that changes to a random RGB value on button click, with the color code displayed outside the box.
-- Features: Random RGB generation, live color preview, responsive layout
+- Features: Random RGB generation, live color preview, responsive layout.
 - Learned: Math.random usage, DOM updates, inline styling with JS
 - Live Demo: ([Click Here to visit](https://param141.github.io/Web_Development_Projects/random_color_generator))
 
@@ -97,6 +97,12 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/todo_dom)
 
 
+🧮 Calculator App
+- Tech Stack: HTML, CSS, JavaScript
+- Description: A responsive calculator that performs basic arithmetic operations including addition, subtraction, multiplication, and division.
+- Features: Button-based input, real-time display updates, clear/reset functionality, keyboard support (optional)
+- Learned: DOM manipulation, event handling, expression parsing, UI layout with CSS grid/flex
+- Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/calculator2)
 
 
 

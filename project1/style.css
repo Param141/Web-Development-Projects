@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+} /*to get clean slate*/
+
+.main_box{
+    background: url("photo.jpg");
+    height: 100vh;  /*to  give image  the whole screen size*/
+    background-size: cover;  /*for image to cover the screen completely and properly*/
+}
+
+.btn_one i{
+
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute; /*giving position according to its absolute parent i.e wrt document
+     since we  had  not given its parent main box any position*/
+     left: 16px;  /*had set its position 16px left from top*/
+     line-height: 60px; /* how  much height each line of content needs*/
+     cursor: pointer;
+     transition: all 0.3s linear;
+}
+
+.sidebar_menu{
+    position: fixed;
+    left: -350px;  /*to show slide in slide out animation*/
+    height: 100vh; /*to give complete height of page*/
+    width: 300px;
+    background-color: rgb(255, 255, 255,0.1); /*opacity 0.1 to give a opaque shade*/
+    box-shadow: 0 0 6px rgb(255, 255, 255,0.5);
+  transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%; /*wrt to sidebar_menu*/
+    line-height: 60px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255,0.5);
+    height: 60px;
+}
+
+.sidebar_menu .logo a{ /*styling only achor tags inside logo class*/
+position: absolute; /*relative to its parent*/
+left: 50px;
+color: white;
+text-decoration: none; /*to remove underline*/
+font-size: 20px;
+font-weight: 500;
+
+
+
+}
+
+
+.btn_two i{
+    color: grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu i,a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.sidebar_menu .menu i{
+    padding-right: 8px;
+}
+
+.sidebar_menu .social_media{
+   
+    position: absolute;/*wrt sidebar menu if had done position ifxed the would have came wrt whole page*/
+    left: 25%;
+    bottom: 20px;
+}
+
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5; /*to give greyish shade*/
+    padding: 0 5px;
+}  
+
+#check{
+    display: none;
+
+    /*to remove small checkbox from the screen 
+    and space occupied by it will also be removed
+    so all elements will shift a little upwards*/
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 4px rgb(255, 255, 255,0.5);
+
+}
+
+.btn_one i:hover{
+    font-size: 40px;
+}
+
+.btn_two i:hover{
+    font-size: 30px;
+}
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#check:checked ~ .sidebar_menu{
+/*~ shows sibling of check class ie sidebar_menu*/
+left: 0;/*when the icon is clicked checkboz gets
+ticked and its left=-300px becomes 0*/
+
+}
+
+
+#check:checked ~ .btn_one i{
+    opacity: 0;
+
+}
+
+#check:checked ~ .sidebar_menu .btn_two i{
+    opacity: 1;
+}

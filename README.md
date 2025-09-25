@@ -13,7 +13,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 ## 📁 Projects Included
 
 🕰️ Analog Clock
-- Tech Stack: HTML, CSS, JavaScript
+- Tech Stack: HTML, CSS, JavaScript.
 - Description: A functional analog clock styled with CSS and animated using JS.
 - Features: Real-time rotation of hour, minute, and second hands
 - Learned: CSS transforms, JS intervals, DOM targeting

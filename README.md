@@ -117,6 +117,27 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/project1)
 
 
+# 🌐 Portfolio Webpage
+
+## 🔧 Tech Stack- HTML,CSS,JS
+## ✨ Features
+- **About Me** section with a brief introduction and skillset
+- **Projects** section listing individual projects with short descriptions
+- **Contact Me** section with email information for direct communication
+- **Navigation Bar** with smooth scrolling between sections
+- Clean layout with responsive design and semantic structure
+
+## 🎯 What I Learned
+- Structuring content using HTML5 semantic elements
+- Styling with CSS including layout, spacing, and color themes
+- Implementing smooth navigation and section linking with JavaScript
+- Creating a clear call-to-action and professional presentation
+
+## 🚀 Live Demo
+[Click here to view](https://param141.github.io/Web_Development_Projects/portfolio)
+
+
+
 ## 📅 Contribution Strategy
 
 I commit one project per day to maintain a visible streak and reflect consistent effort. Each commit adds meaningful content — no filler.

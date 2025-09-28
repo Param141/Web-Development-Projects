@@ -131,7 +131,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Structuring content using HTML5 semantic elements
 - Styling with CSS including layout, spacing, and color themes
 - Implementing smooth navigation and section linking with JavaScript
-- Creating a clear call-to-action and professional presentation
+- Creating a clear call-to-action and professional presentation.
 
 ## 🚀 Live Demo
 [Click here to view](https://param141.github.io/Web_Development_Projects/portfolio)

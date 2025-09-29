@@ -125,7 +125,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - **Projects** section listing individual projects with short descriptions
 - **Contact Me** section with email information for direct communication
 - **Navigation Bar** with smooth scrolling between sections
-- Clean layout with responsive design and semantic structure
+- Clean layout with responsive design and semantic structure.
 
 ## 🎯 What I Learned
 - Structuring content using HTML5 semantic elements

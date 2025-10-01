@@ -15,7 +15,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🕰️ Analog Clock
 - Tech Stack: HTML, CSS, JavaScript.
 - Description: A functional analog clock styled with CSS and animated using JS.
-- Features: Real-time rotation of hour, minute, and second hands
+- Features: Real-time rotation of hour, minute, and second hands.
 - Learned: CSS transforms, JS intervals, DOM targeting
 - Live Demo: ([Click here to visit](https://param141.github.io/Web_Development_Projects/analog_clock/))
 

@@ -6,7 +6,7 @@ Welcome to my curated collection of web development projects — built from scra
 ## 🚀 Why This Repo?
 
 Instead of scattering projects across multiple repositories, I've brought them together here to:
-- Maintain a consistent GitHub contribution streak 📈
+- Maintain a consistent GitHub contribution streak 📈.
 - Showcase my evolving skillset in one place.
 - Make it easier for recruiters and collaborators to explore my work.
 
@@ -15,7 +15,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🕰️ Analog Clock
 - Tech Stack: HTML, CSS, JavaScript.
 - Description: A functional analog clock styled with CSS and animated using JS.
-- Features: Real-time rotation of hour, minute, and second hands
+- Features: Real-time rotation of hour, minute, and second hands.
 - Learned: CSS transforms, JS intervals, DOM targeting
 - Live Demo: ([Click here to visit](https://param141.github.io/Web_Development_Projects/analog_clock/))
 
@@ -23,7 +23,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Tech Stack: HTML, CSS, JavaScript
 - Description: Displays random motivational quotes on button click.
 - Features: Predefined quote list, responsive layout.
-- Learned: DOM manipulation, event handling, clean UI structuring
+- Learned: DOM manipulation, event handling, clean UI structuring.
 - Live Demo: ([Click here to play](https://param141.github.io/Web_Development_Projects/Qoute_generator))
 
 ❌⭕ Tic Tac Toe
@@ -115,6 +115,27 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - Clean layout with strong visual hierarchy and contrast
 - Learned: CSS positioning, transitions, responsive design, icon integration
 - Live Demo: [Click here to view](https://param141.github.io/Web_Development_Projects/project1)
+
+
+# 🌐 Portfolio Webpage
+
+## 🔧 Tech Stack- HTML,CSS,JS
+## ✨ Features
+- **About Me** section with a brief introduction and skillset
+- **Projects** section listing individual projects with short descriptions
+- **Contact Me** section with email information for direct communication
+- **Navigation Bar** with smooth scrolling between sections
+- Clean layout with responsive design and semantic structure.
+
+## 🎯 What I Learned
+- Structuring content using HTML5 semantic elements
+- Styling with CSS including layout, spacing, and color themes
+- Implementing smooth navigation and section linking with JavaScript
+- Creating a clear call-to-action and professional presentation.
+
+## 🚀 Live Demo
+[Click here to view](https://param141.github.io/Web_Development_Projects/portfolio)
+
 
 
 ## 📅 Contribution Strategy

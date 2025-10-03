@@ -1,0 +1,77 @@
+/* Set a geometric pattern background */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('geometric\ pattern\ background.png'); /* Replace with your geometric pattern image path */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Blended calculator container with semi-transparent background */
+.calculator {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Calculator display screen */
+.calculator-screen {
+    width: 100%;
+    height: 80px;
+    font-size: 2.5em;
+    border: none;
+    background-color: rgba(37, 37, 37, 0.9);
+    color: #fff;
+    text-align: right;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Common styles for all calculator keys */
+.calculator-keys button {
+    height: 60px;
+    width: 23%;
+    font-size: 1.5em;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+/* Style for number and decimal keys */
+.calculator-keys button:not(.operator):not(.all-clear):not(.equal-sign) {
+    background-color: rgba(220, 220, 220, 0.9);
+    color: #000;
+}
+
+/* Operator buttons */
+.calculator-keys button.operator {
+    background-color: rgba(255, 140, 0, 0.9);
+    color: #fff;
+}
+
+/* Equal sign button */
+.calculator-keys button.equal-sign {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: #fff;
+}
+
+/* All-clear button */
+.calculator-keys button.all-clear {
+    background-color: rgba(217, 83, 79, 0.9);
+    color: #fff;
+}
+
+/* Button press effect */
+.calculator-keys button:active {
+    transform: scale(0.95);
+}

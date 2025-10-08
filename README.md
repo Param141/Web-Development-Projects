@@ -138,6 +138,17 @@ Instead of scattering projects across multiple repositories, I've brought them t
 
 
 
+📝 APJ Abdul Kalam Wiki Page  
+- **Tech Stack**: HTML, CSS  
+- **Description**: A static tribute page highlighting the life, achievements, and legacy of Dr. A.P.J. Abdul Kalam.  
+- **Features**: Biography section, timeline highlights, inspirational quotes, clean layout  
+- **Learned**: Semantic HTML structuring, CSS styling, content organization  
+- **Live Demo**: ([Click here to view](https://param141.github.io/Web_Development_Projects/Abdul_Kalam)) 
+
+
+
+
+
 ## 📅 Contribution Strategy
 
 I commit one project per day to maintain a visible streak and reflect consistent effort. Each commit adds meaningful content — no filler.

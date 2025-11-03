@@ -64,7 +64,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 🚗 Animated Car Project
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A looping animation of a luxury sports car driving endlessly on a road, complete with sound effects for realism.
-- Features: Smooth car motion, layered road animation, audio integration
+- Features: Smooth car motion, layered road animation, audio integration.
 - Learned: CSS keyframes, JS audio control, visual storytelling through animation
 - Live Demo: ([Click Here to Play](https://param141.github.io/Web_Development_Projects/Animated_car))
 

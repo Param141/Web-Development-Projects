@@ -146,12 +146,63 @@ Instead of scattering projects across multiple repositories, I've brought them t
 - **Live Demo**: ([Click here to view](https://param141.github.io/Web_Development_Projects/Abdul_Kalam)) 
 
 
+🌍 Tourism Website with AI Chatbot Integration
+
+A responsive Tourism Website built using HTML, CSS, JavaScript, PHP, and MySQL, featuring an integrated AI-based chatbot and a working Contact Us form.
+
+🚀 Project Overview
+
+This project showcases a simple yet functional tourism website designed to help users explore destinations, interact with a chatbot for quick travel assistance, and contact the admin directly through a connected PHP-MySQL backend.
+
+🧩 Features
+
+🏖️ Multi-page responsive design (Home, About, Contact)
+
+💬 AI Chatbot for answering user queries
+
+📩 Functional contact form with PHP backend
+
+🗄️ MySQL database integration for form submissions
+
+⚙️ Fully operational on XAMPP (Apache + MySQL)
+
+🧠 Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: PHP
+
+Database: MySQL
+
+Server: XAMPP (Localhost)
+
+🗂️ How to Run
+
+Install and open XAMPP.
+
+Start Apache and MySQL.
+
+Place the project folder in C:\xampp\htdocs\.
+
+Create a database named tour and import the contact table.
+
+Run in browser:
+
+http://localhost/TourismWebsite/
+
+📸 Output Highlights
+
+Interactive chatbot for tourism assistance
+
+Contact form storing data in phpMyAdmin
+
+Clean, user-friendly design
+
+📘 Author
+
+Developed as a college project to demonstrate frontend-backend integration and chatbot functionality using open-source web technologies.
 
 
-
-## 📅 Contribution Strategy
-
-I commit one project per day to maintain a visible streak and reflect consistent effort. Each commit adds meaningful content — no filler.
 
 ## 📬 Contact
 

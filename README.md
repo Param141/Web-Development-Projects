@@ -29,7 +29,7 @@ Instead of scattering projects across multiple repositories, I've brought them t
 ❌⭕ Tic Tac Toe
 - Tech Stack: HTML, CSS, JavaScript
 - Description: A two-player game with win/draw detection and reset.
-- Features: Turn-based logic, result alerts, replay option
+- Features: Turn-based logic, result alerts, replay option.
 - Learned: Game state management, conditionals, interactive UI
 - Live Demo: [Click here to play](https://param141.github.io/Web_Development_Projects/tic_tac_toe/)
 

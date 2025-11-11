@@ -192,7 +192,7 @@ http://localhost/TourismWebsite/
 
 📸 Output Highlights
 
-Interactive chatbot for tourism assistance
+Interactive chatbot for tourism assistance.
 
 Contact form storing data in phpMyAdmin
 
